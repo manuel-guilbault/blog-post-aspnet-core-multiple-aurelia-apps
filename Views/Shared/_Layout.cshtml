@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>@ViewData["Title"] - Aurelia</title>
+        @RenderSection("head", required: false)
+    </head>
+    <body>
+        <nav>
+            <a href="/Home/App1">App1</a>
+            <a href="/Home/App2">App2</a>
+        </nav>
+
+        @RenderBody()
+
+        @RenderSection("scripts", required: false)
+    </body>
+</html>
